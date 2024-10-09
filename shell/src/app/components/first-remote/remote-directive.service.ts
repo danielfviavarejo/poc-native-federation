@@ -1,6 +1,5 @@
 import { loadRemoteModule } from "@angular-architects/native-federation";
 import { ComponentRef, Injectable, ViewContainerRef } from "@angular/core";
-import { single } from "rxjs";
 
 @Injectable({
     providedIn: 'root'
