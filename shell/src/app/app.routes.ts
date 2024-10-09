@@ -10,10 +10,6 @@ export const routes: Routes = [
   },
   {
     path: 'catalogo',
-    loadComponent: () =>
-      loadRemoteModule({
-        remoteEntry: 'http://localhost:4201/remoteEntry.js',
-        exposedModule: './Component',
-      }).then((m) => m.AppComponent),
+    loadComponent: () => loadRemoteModule('catalogo', './AppComponent').then((m) => m.AppComponent).catch((e) => console.error(e))
   },
 ];

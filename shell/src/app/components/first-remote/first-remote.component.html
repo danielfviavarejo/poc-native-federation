@@ -1,1 +1,13 @@
- <div #placeHolder></div>
+ <!-- <div #placeHolder></div> -->
+
+ <ng-container
+  remote="catalogo"
+  component="AppComponent"
+  module="./AppComponent"
+  [input]="{ text: inputText, message: 'input message' }"
+  (output)="handleOutput($event)"
+  (loaded)="handleLoaded()"
+  (destroyed)="handleDestroyed()"
+  (error)="handleError($event)"
+>
+</ng-container>
