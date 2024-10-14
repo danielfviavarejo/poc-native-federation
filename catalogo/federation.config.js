@@ -3,9 +3,10 @@ const { withNativeFederation, shareAll } = require('@angular-architects/native-f
 module.exports = withNativeFederation({
   name: "catalogo",
 
-  exposes: 
+  exposes:
     {
-      "./AppComponent": "./src/app/app.component.ts"
+      "./AppComponent": "./src/app/app.component.ts",
+      "./CatalogoService": "./src/app/service/catalogo.service.ts"
     },
 
   shared: {
