@@ -1,0 +1,8 @@
+export enum ModulosRedimensionar {
+  CLIENTE = 'CLIENTE',
+  CATALOGO = 'CATALOGO',
+  CARRINHO = 'CARRINHO',
+  PEDIDOS = 'PEDIDOS',
+  CAMERA = 'CAMERA',
+  PERFIL_FINANCEIRO = 'PERFILFINANCEIRO',
+}

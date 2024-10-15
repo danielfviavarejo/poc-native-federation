@@ -19,6 +19,10 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "@vv/viamais-app-android-communication": "file:dist/android-communication",
+    "@vv/viamais-app-utils": "file:dist/viamais-app-utils",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.1",
     "es-module-shims": "^1.5.12",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
@@ -35,6 +39,7 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ng-packagr": "^18.2.0",
     "typescript": "~5.5.2"
   }
 }

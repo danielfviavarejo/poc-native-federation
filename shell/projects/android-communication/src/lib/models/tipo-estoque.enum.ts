@@ -1,0 +1,6 @@
+export enum TipoEstoque {
+  MOSTRUARIO = 'MOSTRUARIO',
+  PADRAO = 'PADRAO',
+  SALDO = 'SALDO',
+  RESERVADO = 'RESERVADO'
+}

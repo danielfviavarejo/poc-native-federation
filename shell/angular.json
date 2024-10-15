@@ -118,6 +118,204 @@
 					}
 				}
 			}
-		}
+    },
+    "android-communication": {
+      "projectType": "library",
+      "root": "projects/android-communication",
+      "sourceRoot": "projects/android-communication/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/android-communication/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/android-communication/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/android-communication/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/android-communication/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "event-bus": {
+      "projectType": "library",
+      "root": "projects/event-bus",
+      "sourceRoot": "projects/event-bus/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/event-bus/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/event-bus/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/event-bus/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/event-bus/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "remote-component-loader": {
+      "projectType": "library",
+      "root": "projects/remote-component-loader",
+      "sourceRoot": "projects/remote-component-loader/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/remote-component-loader/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/remote-component-loader/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/remote-component-loader/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/remote-component-loader/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "token-interceptor": {
+      "projectType": "library",
+      "root": "projects/token-interceptor",
+      "sourceRoot": "projects/token-interceptor/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/token-interceptor/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/token-interceptor/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/token-interceptor/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/token-interceptor/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "viamais-app-utils": {
+      "projectType": "library",
+      "root": "projects/viamais-app-utils",
+      "sourceRoot": "projects/viamais-app-utils/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/viamais-app-utils/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/viamais-app-utils/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/viamais-app-utils/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/viamais-app-utils/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    },
+    "transformar-e-validar": {
+      "projectType": "library",
+      "root": "projects/transformar-e-validar",
+      "sourceRoot": "projects/transformar-e-validar/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/transformar-e-validar/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/transformar-e-validar/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/transformar-e-validar/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/transformar-e-validar/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
 	}
 }

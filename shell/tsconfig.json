@@ -3,6 +3,27 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "android-communication": [
+        "./dist/android-communication",
+        "./dist/android-communication"
+      ],
+      "event-bus": [
+        "./dist/event-bus"
+      ],
+      "remote-component-loader": [
+        "./dist/remote-component-loader"
+      ],
+      "token-interceptor": [
+        "./dist/token-interceptor"
+      ],
+      "transformar-e-validar": [
+        "./dist/transformar-e-validar"
+      ],
+      "viamais-app-utils": [
+        "./dist/viamais-app-utils"
+      ]
+    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,

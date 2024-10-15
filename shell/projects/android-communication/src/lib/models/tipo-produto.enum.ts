@@ -1,0 +1,6 @@
+export enum TipoProduto {
+  CONJUNTO = 'CONJUNTO',
+  MERCADORIA = 'MERCADORIA',
+  SEGURO = 'SEGURO',
+  SERVICO = 'SERVICO'
+}
