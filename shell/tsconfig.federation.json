@@ -9,6 +9,7 @@
   ],
   "include": [
     "src/**/*.d.ts",
-    "dist\\android-communication"
+    "node_modules\\class-transformer\\esm5\\index.js",
+    "node_modules\\class-validator\\esm5\\index.js"
   ]
 }

@@ -19,6 +19,8 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "@jest/globals": "^29.7.0",
+    "@types/jest": "^29.5.13",
     "@vv/viamais-app-android-communication": "file:dist/android-communication",
     "@vv/viamais-app-utils": "file:dist/viamais-app-utils",
     "class-transformer": "^0.5.1",
@@ -29,6 +31,7 @@
     "zone.js": "~0.14.10"
   },
   "devDependencies": {
+    "jest": "^29.7.0",
     "@angular-devkit/build-angular": "^18.2.7",
     "@angular/cli": "^18.2.7",
     "@angular/compiler-cli": "^18.2.0",
