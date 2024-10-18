@@ -3,24 +3,6 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
-    "paths": {
-      "android-communication": [
-        "./dist/android-communication",
-        "./dist/android-communication"
-      ],
-      "event-bus": [
-        "./dist/event-bus"
-      ],
-      "token-interceptor": [
-        "./dist/token-interceptor"
-      ],
-      "transformar-e-validar": [
-        "./dist/transformar-e-validar"
-      ],
-      "viamais-app-utils": [
-        "./dist/viamais-app-utils"
-      ]
-    },
     "outDir": "./dist/out-tsc",
     "strict": true,
     "noImplicitOverride": true,
@@ -40,7 +22,12 @@
     "lib": [
       "ES2022",
       "dom"
-    ]
+    ],
+    "paths": {
+      "utils": [
+        "./dist/utils"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
