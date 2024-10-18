@@ -1,7 +1,7 @@
 import { HttpErrorResponse } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { Erro } from "@vv/viamais-app-android-communication";
 import { ApiError } from "./model/apiError";
+import {Erro} from '../models';
 
 @Injectable({providedIn: 'root'})
 export class ErrorMessageAdapter {

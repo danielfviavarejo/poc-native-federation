@@ -1,4 +1,4 @@
-import { TipoInstrucao } from "@vv/viamais-app-android-communication";
+import {TipoInstrucao} from '../../models';
 
 export interface ApiError {
   description: string;

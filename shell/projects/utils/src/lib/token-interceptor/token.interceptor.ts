@@ -1,8 +1,8 @@
 import { HttpEvent, HttpHandler, HttpInterceptor, HttpRequest } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { SessaoService } from '@vv/viamais-app-utils';
 import { Observable } from 'rxjs';
 import { ERROR_TOKEN_UNAVAILABLE } from './error-messages.const';
+import {SessaoService} from '../sessao';
 
 @Injectable({ providedIn: 'root' })
 export class TokenInterceptor implements HttpInterceptor {

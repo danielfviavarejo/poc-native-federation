@@ -1,4 +1,5 @@
 import { Injectable } from '@angular/core';
+import '../models/global-window';
 
 declare const dataLayer: any;
 
